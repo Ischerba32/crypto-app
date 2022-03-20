@@ -1,0 +1,47 @@
+.table {
+  border-radius: 5px;
+  text-align: left;
+  background-color: #fff;
+  color: rgba(0,0,0,.87);
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 80%;
+  
+  &__body, &__head {
+    text-align: right;
+  }
+
+  &__head {
+    tr {
+      th {
+        padding: 15px;
+        color: rgba(0,0,0,.87);
+
+        &:first-child {
+          text-align: center;
+        }
+
+        &:nth-child(2) {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  &__body {
+    tr {
+      transition: background 0.35s ease 0s;
+
+      &:hover {
+        background: rgba(0,0,0,.05)!important;
+        color: rgba(0,0,0,.95)!important;
+      }
+
+      td {
+        &:first-child {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

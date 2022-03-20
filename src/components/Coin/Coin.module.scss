@@ -1,0 +1,21 @@
+.coin {
+  td {
+    padding: 15px;
+    border-top: 1px solid rgba(34,36,38,.1);
+  }
+
+  &__name {
+    text-align: left;
+  }
+
+  &__percent {
+    
+    &_positive {
+      color: green;
+    }
+
+    &_negative {
+      color: red;
+    }
+  }
+}

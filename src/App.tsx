@@ -1,13 +1,7 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-import {Coin, Table} from "./components";
-import CoinsTable from "./components/CoinsTable/CoinsTable";
-import { CoinModel } from "./interfaces/coin.interface";
-
+import CoinsTable from './components/CoinsTable/CoinsTable';
+import './styles/globals.scss';
 
 function App() {
-
-
   return (
     <>
       <CoinsTable />
